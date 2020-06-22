@@ -10,6 +10,9 @@
 		F24EAE2424A090EB006FEBFA /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2324A090EB006FEBFA /* GoalType.swift */; };
 		F24EAE2624A09720006FEBFA /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2524A09720006FEBFA /* CreateGoalVC.swift */; };
 		F24EAE2824A09BB4006FEBFA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2724A09BB4006FEBFA /* UIViewControllerExt.swift */; };
+		F24EAE2A24A09F95006FEBFA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2924A09F95006FEBFA /* UIViewExt.swift */; };
+		F24EAE2C24A0A417006FEBFA /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2B24A0A417006FEBFA /* UIButtonExt.swift */; };
+		F24EAE2E24A0AB27006FEBFA /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EAE2D24A0AB27006FEBFA /* FinishGoalVC.swift */; };
 		F2572C2D24A068B4009602DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2572C2C24A068B4009602DA /* AppDelegate.swift */; };
 		F2572C2F24A068B4009602DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2572C2E24A068B4009602DA /* SceneDelegate.swift */; };
 		F2572C3124A068B4009602DA /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2572C3024A068B4009602DA /* GoalsVC.swift */; };
@@ -24,6 +27,9 @@
 		F24EAE2324A090EB006FEBFA /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		F24EAE2524A09720006FEBFA /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		F24EAE2724A09BB4006FEBFA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		F24EAE2924A09F95006FEBFA /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		F24EAE2B24A0A417006FEBFA /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		F24EAE2D24A0AB27006FEBFA /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		F2572C2924A068B4009602DA /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2572C2C24A068B4009602DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2572C2E24A068B4009602DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 			children = (
 				F2572C3024A068B4009602DA /* GoalsVC.swift */,
 				F24EAE2524A09720006FEBFA /* CreateGoalVC.swift */,
+				F24EAE2D24A0AB27006FEBFA /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				F24EAE2724A09BB4006FEBFA /* UIViewControllerExt.swift */,
+				F24EAE2924A09F95006FEBFA /* UIViewExt.swift */,
+				F24EAE2B24A0A417006FEBFA /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,9 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24EAE2A24A09F95006FEBFA /* UIViewExt.swift in Sources */,
+				F24EAE2C24A0A417006FEBFA /* UIButtonExt.swift in Sources */,
 				F2572C3124A068B4009602DA /* GoalsVC.swift in Sources */,
 				F2572C2D24A068B4009602DA /* AppDelegate.swift in Sources */,
 				F24EAE2824A09BB4006FEBFA /* UIViewControllerExt.swift in Sources */,
+				F24EAE2E24A0AB27006FEBFA /* FinishGoalVC.swift in Sources */,
 				F24EAE2424A090EB006FEBFA /* GoalType.swift in Sources */,
 				F2572C3724A068B4009602DA /* Goal_Post.xcdatamodeld in Sources */,
 				F24EAE2624A09720006FEBFA /* CreateGoalVC.swift in Sources */,
