@@ -128,18 +128,39 @@
                                                     <color key="textColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3AR-H0-hYJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL COMPLETE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Z7-RG-8fr">
+                                                            <rect key="frame" x="79" y="14.5" width="256.5" height="41"/>
+                                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="0.74513094190140849" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="1Z7-RG-8fr" firstAttribute="centerX" secondItem="3AR-H0-hYJ" secondAttribute="centerX" id="YuJ-ZI-Epo"/>
+                                                        <constraint firstItem="1Z7-RG-8fr" firstAttribute="centerY" secondItem="3AR-H0-hYJ" secondAttribute="centerY" id="shW-BJ-Fb6"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="hnb-KP-2z3" firstAttribute="bottom" secondItem="mEz-aQ-x5b" secondAttribute="bottomMargin" id="9Bn-BV-BrG"/>
                                                 <constraint firstItem="hnb-KP-2z3" firstAttribute="leading" secondItem="Awd-91-1Rb" secondAttribute="trailing" constant="10" id="BsK-Oh-ZAD"/>
                                                 <constraint firstItem="hnb-KP-2z3" firstAttribute="trailing" secondItem="mEz-aQ-x5b" secondAttribute="trailingMargin" id="HgN-f9-DXQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="3AR-H0-hYJ" secondAttribute="trailing" id="L61-TL-ONf"/>
+                                                <constraint firstItem="3AR-H0-hYJ" firstAttribute="top" secondItem="mEz-aQ-x5b" secondAttribute="top" id="MQi-4Q-2s8"/>
                                                 <constraint firstAttribute="bottom" secondItem="Awd-91-1Rb" secondAttribute="bottom" constant="10.5" id="SVF-jG-jNR"/>
                                                 <constraint firstItem="Awd-91-1Rb" firstAttribute="leading" secondItem="mEz-aQ-x5b" secondAttribute="leading" constant="20" id="ZXM-8z-lXk"/>
+                                                <constraint firstAttribute="bottom" secondItem="3AR-H0-hYJ" secondAttribute="bottom" id="jgI-5l-N7G"/>
                                                 <constraint firstItem="hnb-KP-2z3" firstAttribute="top" secondItem="mEz-aQ-x5b" secondAttribute="topMargin" id="scs-yV-4UE"/>
                                                 <constraint firstItem="Awd-91-1Rb" firstAttribute="top" secondItem="mEz-aQ-x5b" secondAttribute="top" constant="10" id="tEP-J6-Vzd"/>
+                                                <constraint firstItem="3AR-H0-hYJ" firstAttribute="leading" secondItem="mEz-aQ-x5b" secondAttribute="leading" id="zly-Wv-C59"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="completionView" destination="3AR-H0-hYJ" id="muU-Th-j8w"/>
                                             <outlet property="goalDescriptionLbl" destination="G9x-Y8-IHb" id="Vdb-aE-gPU"/>
                                             <outlet property="goalProgressLbl" destination="hnb-KP-2z3" id="79d-et-CRC"/>
                                             <outlet property="goalTypeLbl" destination="NGo-J6-WOi" id="cfj-yc-hYo"/>

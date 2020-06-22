@@ -75,7 +75,6 @@
 				F2572C4724A06908009602DA /* Extensions */,
 				F2572C4624A068FF009602DA /* Enums */,
 				F2572C4524A068E7009602DA /* View */,
-				F2572C4424A068DE009602DA /* Model */,
 				F2572C4324A068D1009602DA /* Controller */,
 				F2572C2C24A068B4009602DA /* AppDelegate.swift */,
 				F2572C2E24A068B4009602DA /* SceneDelegate.swift */,
@@ -96,13 +95,6 @@
 				F24EAE2D24A0AB27006FEBFA /* FinishGoalVC.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		F2572C4424A068DE009602DA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		F2572C4524A068E7009602DA /* View */ = {
